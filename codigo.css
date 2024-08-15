@@ -1,0 +1,39 @@
+
+
+
+
+
+#calculadora {
+    
+ margin-top: 80px;
+  border-radius: 15px;
+  background-color: blueviolet;
+  max-width: 200px;
+}
+#pantalla {
+  background-color:hotpink;
+  height: 15vh;
+  width: 98%;
+  border-radius:10px   ;
+ 
+}
+#botones {
+  
+  display: grid;
+  grid-template-columns:repeat(4,1fr) ;
+  gap: 10px;
+  padding: 25px;
+ 
+ 
+}
+
+button {
+    flex-wrap: wrap;
+  width: 35px;
+  height: 35px;
+  border-radius:30PX ;
+  border-radius:none ;
+  font-size: 1rem;
+  font-weight: bold;
+  
+}
