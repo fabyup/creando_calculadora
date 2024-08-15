@@ -1,5 +1,9 @@
 
 
+body {
+  display: grid;
+  justify-content: center;
+}
 
 
 
@@ -8,13 +12,15 @@
  margin-top: 80px;
   border-radius: 15px;
   background-color: blueviolet;
-  max-width: 200px;
+  max-width: 300px;
+  border: solid;
 }
 #pantalla {
   background-color:hotpink;
-  height: 15vh;
-  width: 98%;
-  border-radius:10px   ;
+  height: 10vh;
+  width: 97%;
+  border-radius:10px;   
+  border:solid;
  
 }
 #botones {
@@ -28,12 +34,12 @@
 }
 
 button {
-    flex-wrap: wrap;
-  width: 35px;
-  height: 35px;
+  flex-wrap: wrap;
+  width: 45px;
+  height: 45px;
   border-radius:30PX ;
-  border-radius:none ;
-  font-size: 1rem;
+  
+  font-size: 100%;
   font-weight: bold;
   
 }
