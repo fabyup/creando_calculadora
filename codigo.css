@@ -1,47 +1,47 @@
-
-
 body {
   display: grid;
   justify-content: center;
 }
 
-h1{
+h1 {
   font-family: cursive;
 }
 
 
 #calculadora {
-    
- margin-top: 80px;
+
+  margin-top: 80px;
   border-radius: 15px;
   background-color: blueviolet;
   max-width: 300px;
   border: solid;
 }
+
 #pantalla {
-  background-color:hotpink;
+  background-color: hotpink;
   height: 12vh;
   width: 97%;
-  border-radius:10px;   
-  
+  border-radius: 10px;
+
   font-size: 30px;
- 
+
 }
+
 #botones {
-  
+
   display: grid;
-  grid-template-columns:repeat(4,1fr) ;
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   padding: 25px;
- 
- 
+
+
 }
 
 button {
   flex-wrap: wrap;
   width: 45px;
   height: 45px;
-  border-radius:10PX ;
+  border-radius: 10PX;
   font-size: 30px;
-  
+
 }

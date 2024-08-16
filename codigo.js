@@ -12,3 +12,18 @@ function actualizarPantalla(input){
 function borrarPantalla(){
     pantalla.value = "";
 }
+
+
+    function borrarUnCaracter (){
+        let value = pantalla.value;
+        let newValue = value.substring(0,value.length - 1);
+        pantalla.value = newValue;
+    }
+
+    
+
+         
+          
+          
+            
+    
