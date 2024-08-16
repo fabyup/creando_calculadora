@@ -1,11 +1,14 @@
-const inputpantalla = document.querySelector("pantalla");
+const pantalla = document.querySelector("input");
 
-function actulizarPantalla(boton){
-    if (boton.innerHTML === "="){
-        inputpantalla.value = eval (inputpantalla.value);
+function actualizarPantalla(input){
+    if (input.innerHTML === "="){
+        pantalla.value = eval (pantalla.value);
 
     }else{
-        inputpantalla.value += boton .innerHTML
+        pantalla.value += input .innerHTML
     }
 
+}
+function borrarPantalla(){
+    pantalla.value = "";
 }

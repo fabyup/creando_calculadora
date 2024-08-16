@@ -5,6 +5,9 @@ body {
   justify-content: center;
 }
 
+h1{
+  font-family: cursive;
+}
 
 
 #calculadora {
@@ -17,10 +20,11 @@ body {
 }
 #pantalla {
   background-color:hotpink;
-  height: 10vh;
+  height: 12vh;
   width: 97%;
   border-radius:10px;   
-  border:solid;
+  
+  font-size: 30px;
  
 }
 #botones {
@@ -37,9 +41,7 @@ button {
   flex-wrap: wrap;
   width: 45px;
   height: 45px;
-  border-radius:30PX ;
-  
-  font-size: 100%;
-  font-weight: bold;
+  border-radius:10PX ;
+  font-size: 30px;
   
 }
