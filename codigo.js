@@ -1,29 +1,19 @@
 const pantalla = document.querySelector("input");
+let noAgregarMasDeUnOperador = true;
 
-function actualizarPantalla(input){
-    if (input.innerHTML === "="){
-        pantalla.value = eval (pantalla.value);
-
-    }else{
-        pantalla.value += input .innerHTML
-    }
-
+function actualizarPantalla(input) {
+  if (input.innerHTML === "=") {
+    pantalla.value = eval(pantalla.value);
+  } else {
+    pantalla.value += input.innerHTML;
+  }
 }
-function borrarPantalla(){
-    pantalla.value = "";
+function borrarPantalla() {
+  pantalla.value = "";
+}
+
+function borrarUnCaracter() {
+  pantalla.value = pantalla.value.slice(0,-1);
 }
 
 
-    function borrarUnCaracter (){
-        let value = pantalla.value;
-        let newValue = value.substring(0,value.length - 1);
-        pantalla.value = newValue;
-    }
-
-    
-
-         
-          
-          
-            
-    
