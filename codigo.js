@@ -4,16 +4,17 @@ const NUMEROS = "0123456789";
 
 function actualizarPantalla(input) {
   let ultimoCaracter = pantalla.value[pantalla.value.length + -1];
-  if (input.innerHTML === "=") {
-    pantalla.value = eval(pantalla.value);
-  } else {
-    pantalla.value += input.innerHTML;
-  }
+  
 
   if (
     !OPERADORES.includes(ultimoCaracter) ||
     NUMEROS.includes(input.innerHTML)
   ) {
+    if (input.innerHTML === "=") {
+      pantalla.value = eval(pantalla.value);
+    } else {
+      pantalla.value += input.innerHTML;
+    }
   } else {
     alert("opcion no permitida");
   }
